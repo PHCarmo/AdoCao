@@ -1,0 +1,87 @@
+﻿<html>
+<head><title>AdoCão - Doação</title>
+<link rel="icon" href="img/favicon1.ico" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="adotar.js"></script>
+</head>
+<body>
+<div class="banner"></div>
+<nav id="menu">
+	<ul><center>
+		<li><a href="Página Inicial.html">Início</a></li>
+		<li><a href="Cadastro.html">Doar</a></li>
+		<li><a href="Animais.html">Adotar</a></li>
+		<li><a href="Cão Virtual.html">Cão Virtual</a></li>
+		<li><a href="petshop1.html">PetShop</a></li>
+		<li><a href="contato.html">Quem Somos</a></li>
+	</center></ul>
+</nav>
+<center>
+<div class="espaco"></div>
+<div class="conteudo_container"><center><h2>Adote Um Animal</h2>
+<h4>Encontrou um animal abandonado? Ajude a sair desta situação!<br>Faça um rápido cadastro e ajude-o a finalmente ter um lar digno!</h4></center><p><br>
+<h4><font color="FF0000">*</font>Campos Obrigatórios<p><br>
+<form name="cadastro" action="Sucesso.html" method="post" onSubmit="return enviaradoc();">
+<font color="FF0000">*</font>Nome: <input type="text" id="campos" value="" name="nome" placeholder="Ex.: Roberto Gonçalves"><p><br>
+<font color="FF0000">*</font>Endereço: <input type="text" id="campos" value="" name="ende" placeholder="Ex.: Rua da Ascensão, 565"><p><br>
+<font color="FF0000">*</font>Cidade: <input type="text" id="campos" value="" name="cida" placeholder="Ex.: Mogi das Cruzes"><p><br>
+<font color="red">*</font>Estado: <select name="esta"> 
+<option value="">Selecione seu Estado</option> 
+<option value="ac">AC - Acre</option> 
+<option value="al">AL - Alagoas</option> 
+<option value="am">AM - Amazonas</option> 
+<option value="ap">AP - Amapá</option> 
+<option value="ba">BA - Bahia</option> 
+<option value="ce">CE - Ceará</option> 
+<option value="df">DF - Distrito Federal</option> 
+<option value="es">ES - Espírito Santo</option> 
+<option value="go">GO - Goiás</option> 
+<option value="ma">MA - Maranhão</option> 
+<option value="mt">MT - Mato Grosso</option> 
+<option value="ms">MS - Mato Grosso do Sul</option> 
+<option value="mg">MG - Minas Gerais</option> 
+<option value="pa">PA - Pará</option> 
+<option value="pb">PB - Paraíba</option> 
+<option value="pr">PR - Paraná</option> 
+<option value="pe">PE - Pernambuco</option> 
+<option value="pi">PI - Piauí</option> 
+<option value="rj">RJ - Rio de Janeiro</option> 
+<option value="rn">RN - Rio Grande do Norte</option> 
+<option value="ro">RO - Rondônia</option> 
+<option value="rs">RS - Rio Grande do Sul</option> 
+<option value="rr">RR - Roraima</option> 
+<option value="sc">SC - Santa Catarina</option> 
+<option value="se">SE - Sergipe</option> 
+<option value="sp">SP - São Paulo</option> 
+<option value="to">TO - Tocantins</option> 
+</select><p><br>
+<font color="FF0000">*</font>Telefone: <input type="text" id="campos" value="" name="tele" placeholder="Ex.: 46483566 ou 985833637" maxlength="9"><p><br>
+<font color="FF0000">*</font>E-mail: <input type="text" id="campos" value="" name="emai" placeholder="Ex.: adocao@exemplo.com"><p><br>
+<font color="FF0000">*</font>Animal: <select name="anim">
+<option value="">Selecione o Animal</option>
+<option value="1">Max</option>
+<option value="2">Rex</option>
+<option value="3">Nick</option>
+<option value="4">Bob</option>
+<option value="5">Maylow</option>
+<option value="6">Totó</option>
+<option value="7">Sheldon</option>
+<option value="8">Nicky, Ricky, Dicky, Lincky e Dawn</option>
+<option value="9">Mario</option>
+<option value="10">Zelda</option>
+<option value="11">Xampu</option>
+<option value="12">Billy</option>
+</select><p><br>
+</h4>
+<center>
+<input type="reset" value="Limpar Campos" id="botao" />
+<input type="submit" value="Enviar Cadastro" id="botao" />
+</center>
+</form>
+</div>
+</center>
+<div class="espaco"></div>
+<div class="rodape">
+<center>&copy; 2016 Paulo</center></div>
+</body>
+</html>

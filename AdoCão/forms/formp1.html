@@ -1,0 +1,135 @@
+﻿<html>
+<head><title>AdoCão - Página Inicial</title>
+<link rel="icon" href="../img/favicon1.ico" />
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<script type="text/javascript" src="formulario.js"></script>
+</head>
+<body>
+<div class="banner"></div>
+<nav id="menu">
+	<ul><center>
+		<li><a href="../Página Inicial.html">Início</a></li>
+		<li><a href="../Cadastro.html">Doar</a></li>
+		<li><a href="../Animais.html">Adotar</a></li>
+		<li><a href="../Cão Virtual.html">Cão Virtual</a></li>
+		<li><a href="../petshop1.html">PetShop</a></li>
+		<li><a href="../contato.html">Quem Somos</a></li>
+	</center></ul>
+</nav>
+<center>
+<div class="espaco"></div>
+<div class="conteudo_container">
+<center>
+<table bgcolor="white" cellpadding="10"><tr><td>
+<h2><center>Formulário de Compra</center></h2><h4>
+<center><font color="red">*Campos Obrigatórios</font></center><p><br>
+<form name="formulario" action="../Sucesso.html" method="post" onSubmit="return verificaCAMPOS();">
+<font color="red">*</font>Nome: <input type="text" name="nome" value="" placeholder="Ex.: Gustavo Silva" id="campos" /><p><br>
+
+<font color="red">*</font>Data de Nascimento: <input type="date" name="dat_nas" size="9" maxlength="10" id="campos" /><p><br>
+
+<font color="red">*</font>RG: <input type="text" name="rg" maxlength="9" size="11" value="" placeholder="Ex.: 123456789" id="campos" />&nbsp;
+<font color="red">*</font>CPF: <input type="text" name="cpf" size="11" maxlength="11" value="" placeholder="Ex.: 12345678912" id="campos" /><p><br>
+
+<font color="red">*</font>Endereço: <input type="text" name="ende" value="" placeholder="Ex.: Rua das Oliveiras, 677" id="campos" />&nbsp;
+Complemento: <input type="text" name="comp" value="" placeholder="Ex.: Prédio 3, Bloco X" id="campos" />&nbsp;<p><br>
+<font color="red">*</font>Bairro: <input type="text" name="bair" value="" placeholder="Ex.: Jardim Ipiringa" id="campos" />
+
+<font color="red">*</font>Município: <input type="text" name="muni" value="" placeholder="Ex.: Itaquaquecetuba" id="campos" />
+<p><br>
+
+<font color="red">*</font>Estado: <select name="estado"> 
+<option value="estado">Selecione o Estado</option> 
+<option value="ac">AC - Acre</option> 
+<option value="al">AL - Alagoas</option> 
+<option value="am">AM - Amazonas</option> 
+<option value="ap">AP - Amapá</option> 
+<option value="ba">BA - Bahia</option> 
+<option value="ce">CE - Ceará</option> 
+<option value="df">DF - Distrito Federal</option> 
+<option value="es">ES - Espírito Santo</option> 
+<option value="go">GO - Goiás</option> 
+<option value="ma">MA - Maranhão</option> 
+<option value="mt">MT - Mato Grosso</option> 
+<option value="ms">MS - Mato Grosso do Sul</option> 
+<option value="mg">MG - Minas Gerais</option> 
+<option value="pa">PA - Pará</option> 
+<option value="pb">PB - Paraíba</option> 
+<option value="pr">PR - Paraná</option> 
+<option value="pe">PE - Pernambuco</option> 
+<option value="pi">PI - Piauí</option> 
+<option value="rj">RJ - Rio de Janeiro</option> 
+<option value="rn">RN - Rio Grande do Norte</option> 
+<option value="ro">RO - Rondônia</option> 
+<option value="rs">RS - Rio Grande do Sul</option> 
+<option value="rr">RR - Roraima</option> 
+<option value="sc">SC - Santa Catarina</option> 
+<option value="se">SE - Sergipe</option> 
+<option value="sp">SP - São Paulo</option> 
+<option value="to">TO - Tocantins</option> 
+</select><p><br>
+
+<font color="red">*</font>Telefone: <input type="text" name="tele" maxlength="8" size="9" value="" placeholder="Ex.: 43218765" id="campos" />&nbsp;
+
+Celular: <input type="text" name="celu" maxlength="9" size="9" value="" placeholder="Ex.: 912345678" id="campos" /><p><br>
+
+<font color="red">*</font>E-mail: <input type="text" name="email" size="27" value="" placeholder="Ex.: adocao@exemplo.com" id="campos" /><p><br>
+
+Estado Civil: <select name="est_civil">
+<option value="est_civil">Selecione uma opção</option>
+<option value="solt">Solteiro(a)</option>
+<option value="casa">Casado(a)</option>
+<option value="sepa">Separado(a)</option>
+<option value="divo">Divorciado(a)</option>
+<option value="viuv">Viuvo(a)</option>
+<option value="outr">Outro</option>
+</select>
+<p><br>
+
+<font color="red">*</font>Produto: <select name="prod" >
+<option value="" selected>Selecione o Produto</option>
+<option value="1">Coleira com Pingente - R$19,90</option>
+<option value="2">Osso Nó - R$2,90</option>
+<option value="3">Petisco Pedigree 500g - R$8,90</option>
+<option value="4">Cama para Cachorro - R$89,90</option>
+<option value="5">Bolinha Mamona Verde - R$3,90</option>
+<option value="6">Bolinha Pata Osso Rosa - R$3,90</option>
+<option value="7">Bolinha de Futebol - R$3,90</option>
+<option value="8">Bolinha Cachorrinho Rosa - R$3,90</option>
+<option value="9">Comedouro 720ml - R$12,90</option>
+<option value="10">Moletom Vermelho - R$14,90</option>
+<option value="11">Caixa de Transporte - R$32,90</option>
+<option value="12">Casinha para Hamster - R$189,90</option>
+<option value="13">Casinha para Cachorro P. - R$229,90</option>
+<option value="14">Carrinho para Cachorro - R$380,90</option>
+<option value="15">Roupa Noel para Cachorro G. - R$ 19,90</option>
+<option value="16">Guia para Cachorro 1,50m - R$15,90</option>
+<option value="17">Cama Luxuosa para Cahorro - R$1.889,90</option>
+<option value="18">Camisa Tricãolor - R$14,90</option>
+<option value="19">Brinquedo Hambúrguer - R$9,90</option>
+<option value="20">Shampoo 500ml - R$7,90</option>
+</select>
+<p><br>
+
+<font color="red">*</font>Forma de Pagamento: <select name="tipop">
+<option value="">Selecione a Forma de Pagamento</option>
+<option value="1">Á vista - Boleto</option>
+<option value="2">Parcelado - Cartão de Crédito</option>
+</select><p><br>
+
+<center>
+<input type="reset" value="Limpar Campos" name="limpar" id="botao" />
+<input type="submit" value="Enviar Formulário" neme="enviar" id="botao" /></center>
+</form>
+<p><br><center><font color="black">Voltar Para:
+<a href="../petshop1.html" ><input type="button" value=" 1 " id="botao2" /></a>
+<a href="../petshop2.html" ><input type="button" value=" 2 " id="botao2" /></a>
+<a href="../petshop3.html" ><input type="button" value=" 3 " id="botao2" /></a></font></a>
+</td></tr></table>
+</div>
+</center>
+<div class="espaco"></div>
+<div class="rodape">
+<center>&copy; 2016 Paulo</center></div>
+</body>
+</html>
